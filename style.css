@@ -1,0 +1,91 @@
+html * {
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: #fcf7f2;
+}
+
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    
+    /* MARGEM DO LOGOTIPO */
+    margin: 3px;
+    align-items: center;
+}
+
+    /* MENU DE NAVEGAÇÃO */
+#menu {
+  background-color: #faf7f3;
+  margin-bottom: 0px;
+  border-top: 2px solid rgb(248, 97, 42);
+  border-bottom: 2px solid rgb(248, 97, 42);
+  padding: 3px;
+  
+     /* POSICIONAMENTO HORIZONTAL CENTRALIZADO */
+    text-align-last: center;
+     /* POSICIONAMENTO HORIZONTAL CENTRALIZADO */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+/* ALTERA SOMENTE O TEXTO DO MENU */
+#menu a {
+    COLOR: rgb(204, 15, 15);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'verdana';
+    
+}
+
+#menu1 {
+    margin: 5px;
+}
+
+.principal {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */
+    grid-template-columns: repeat(2, 2fr);
+
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+}
+/* ALTERAR ITENS DAS IMAGENS */
+.item {
+  background-color: #cfa76e;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 20px;
+  color: #593806;
+  border-top: 5px solid #593806;
+  text-align: center;
+  border-radius: 2%;
+
+}
+
+.item3 {
+    text-transform: uppercase;
+  margin: 20px;
+  color: black;
+   text-align: center;
+  
+}
+
+/* ALTERAR FOOT */
+#foot {
+    text-align-last: center;
+    color: WHITE;
+    background-color: black;
+    /* Alinhar na horizontal */
+    justify-content: center;
+      /* Alinhar na vertical */
+    align-content: center;
+      /* habilitar linhas e colunas */
+    display:grid;
+
+}
+
