@@ -21,8 +21,8 @@ body {
 #menu {
   background-color: #fd9d2e;
   margin-bottom: 0px;
-  border-top: 4px solid rgb(248, 97, 42);
-  border-bottom: 4px solid rgb(248, 97, 42);
+  border-top: 4px solid #fd702e;
+  border-bottom: 4px solid #fd702e;
   padding: 3px;
   
      /* POSICIONAMENTO HORIZONTAL CENTRALIZADO */
@@ -40,8 +40,8 @@ body {
     
 }
 #banner {
-    border-top: 2px solid rgb(146, 46, 10);
-    border-bottom: 2px solid  rgb(146, 46, 10);
+    border-top: 2px solid #c5460c;
+    border-bottom: 2px solid  #c5460c;
 }
 
 #menu1 {
@@ -82,7 +82,7 @@ body {
 #foot {
     text-align-last: center;
     color: WHITE;
-    background-color: rgb(231, 103, 17);
+    background-color: #c5460c;
     /* Alinhar na horizontal */
     justify-content: center;
       /* Alinhar na vertical */
